@@ -8,3 +8,4 @@ with open(budget_data,"r") as file:
     header=next(csv_data)
     for row in csv_data:
         print(row)
+        
